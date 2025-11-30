@@ -29,6 +29,8 @@ EcoQuest is an educational console-based game designed to teach players about pr
 
 ─────────────────────────────────────────────────────────────────────────────────────────
 
+<div align="center">
+         
 ✦ 𝐹𝑒𝒶𝓉𝓊𝓇𝑒𝓈 ✦
 
 🎮 Interactive Gameplay – Explore the grid, pick up trash, and deposit it into the correct bin.  
