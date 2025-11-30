@@ -37,7 +37,6 @@ EcoQuest.java   # Main game file containing logic, story, and gameplay methods
 
 ## 🎮 Gameplay Overview
 
-* Move through different scenes by selecting options.
 * Answer environmental questions correctly to gain points or progress.
 * Collect objects that may help you solve tasks.
 * Finish the journey by completing all environmental challenges.
