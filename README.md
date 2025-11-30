@@ -1,7 +1,6 @@
 # EcoQuest
 
-EcoQuest is a Java-based console game where players answer environmental knowledge questions, collect items, and navigate through a simple interactive world. The project is designed as an educational yet fun way to promote environmental awareness.
-
+EcoQuest is an educational game designed to teach players about proper waste management. In the game, you control a player (P) on a grid to collect trash (T) and deposit it into the correct bin (B). You must identify the type of trash: Nabubulok, Hindi Nabubulok, Recyclable, or Hazardous. Correct identifications increase your score and streak. Wrong ones reset them! The game features increasing difficulty with more trash as your streak grows. High scores are saved for future sessions. Developed as a fun way to learn about environmental responsibility.
 
 ## 🌱 Features
 
