@@ -57,6 +57,7 @@ public class EcoQuest {
         "Hazardous", "Hazardous", "Hazardous", "Hazardous", "Hazardous"
     };
 
+    // Concstructor - Sets everything up before the game starts
     public EcoQuest() {
         grid = new char[GRID_SIZE][GRID_SIZE];
         random = new Random();
@@ -77,6 +78,7 @@ public class EcoQuest {
         randomizePositions();
     }
 
+    // ensure mag-save yung high score
     private void determineHighScoreFile() {
         // Try primary path first
         try {
@@ -94,7 +96,7 @@ public class EcoQuest {
         }
         System.out.println(CYAN + "Using high score file: " + highScoreFile + RESET);
     }
-
+    // Resets the Grid
     private void initializeGrid() {
         for (int i = 0; i < GRID_SIZE; i++) {
             for (int j = 0; j < GRID_SIZE; j++) {
@@ -143,6 +145,7 @@ public class EcoQuest {
         return Integer.parseInt(javaVersion.split("\\.")[0]) >= version;
     }
 
+    // random player, bin and trash position
     private void randomizePositions() {
         // Clear grid
         initializeGrid();
@@ -184,6 +187,7 @@ public class EcoQuest {
         System.out.flush();
     }
 
+    // main interface
     private void displayGrid() {
         System.out.println(CYAN + "=====================================" + RESET);
         System.out.println(CYAN + "         WELCOME TO ECO QUEST!" + RESET);
@@ -231,6 +235,7 @@ public class EcoQuest {
         System.out.println("+");
     }
 
+    // logic sa pag move ng player
     private void movePlayer(char direction) {
         int newX = playerX;
         int newY = playerY;
@@ -246,6 +251,7 @@ public class EcoQuest {
                 return;
         }
 
+        
         if (newX < 0 || newX >= GRID_SIZE || newY < 0 || newY >= GRID_SIZE) {
             System.out.println(YELLOW + "Can't move out of bounds!" + RESET);
             pause(1000);
@@ -431,4 +437,5 @@ public class EcoQuest {
         EcoQuest game = new EcoQuest();
         game.play();
     }
+
 }
