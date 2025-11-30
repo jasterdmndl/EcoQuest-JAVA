@@ -78,7 +78,7 @@ public class EcoQuest {
         randomizePositions();
     }
 
-    // ensure mag-save yung high score
+    // para sure na mag-save yung high score
     private void determineHighScoreFile() {
         // Try primary path first
         try {
@@ -309,6 +309,7 @@ public class EcoQuest {
         }
     }
 
+    // identifying the trash categories
     private void identifyTrash() {
         clearScreen();
         System.out.println(CYAN + "You deposited the trash! Now identify its type(s)." + RESET);
@@ -383,6 +384,7 @@ public class EcoQuest {
         }
     }
 
+    // Loop. Run the game until the player exit.
     public void play() {
         while (true) {
             clearScreen();
@@ -439,3 +441,4 @@ public class EcoQuest {
     }
 
 }
+
