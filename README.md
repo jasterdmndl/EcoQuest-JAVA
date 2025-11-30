@@ -66,13 +66,65 @@ EcoQuest is an educational console-based game designed to teach players about pr
         java EcoQuest
 
 
-❖ 𝒪𝒷𝒿𝑒𝒸𝓉-𝒪𝓇𝒾𝑒𝓃𝓉𝑒𝒹 𝒫𝓇𝒾𝓃𝒸𝒾𝓅𝓁𝑒𝓈
+❖ 𝒪𝒷𝒿𝑒𝒸𝓉-𝒪𝓇𝒾𝑒𝓃𝓉𝑒𝒹 𝒫𝓇𝒾𝓃𝒸𝒾𝓅𝓁𝑒
 ─────────────────────────────────────────────────────────────────────────────────────────
+EcoQuest is designed using key Object-Oriented Programming principles to ensure clean structure, modularity, and maintainability. Below are the OOP concepts applied and how they are implemented in the project.
 
- ✦ Encapsulation – Player position, trash lists, and score are private fields.
- ✦ Abstraction – High score and grid logic are separated from interface.
- ✦ Modularity – Methods for movement, trash handling, and grid rendering are separate for easy maintenance.
+🔷 Abstraction
 
+Abstraction means hiding complex logic and showing only essential features to the user or other parts of the program.
+
+✔ How EcoQuest Uses Abstraction
+
+Classes such as Screen, AnimationThread, CharacterSprite, and EcoQuest hide internal details like:
+
+  - console rendering
+
+  - animation logic
+
+  - movement calculations
+
+  - buffer operations
+
+Example:
+
+         screen.drawCharacter(hero, true);
+
+
+🔶 Encapsulation
+
+Encapsulation means bundling data and methods together in a class and protecting internal states.
+
+✔ How EcoQuest Uses Encapsulation
+
+Each class manages its own data:
+
+  - CharacterSprite manages x and y position
+
+  - Screen manages the rendering buffer
+
+  - AnimationThread manages animation state
+
+Example:
+
+         public void stopAnimation() {
+             running = false;
+         }
+
+🟥 Exception Handling
+
+Exception handling prevents the game from crashing by managing unexpected errors.
+
+✔ How EcoQuest Uses Exception Handling
+
+Inside animations:
+
+         try {
+             playTrashThrowerAnimation();
+         } catch (Exception e) {
+             // Avoid crash during animation
+         }
+         
 ☘ 𝐸𝓍𝒶𝓂𝓅𝓁𝑒 𝒪𝓊𝓉𝓅𝓊𝓉
 
         =====================================
