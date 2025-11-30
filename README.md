@@ -22,13 +22,10 @@
 
 ─────────────────────────────────────────────────────────────────────────────────────────
 
-<p align="center">✦ 𝒪𝓋𝑒𝓇𝓋𝒾𝑒𝓌 ✦</p>
-
 <p align="center">
-EcoQuest is an educational console-based game designed to teach players about proper waste management. In the game, you control a player (P) on a 15×15 grid to collect trash (T) and deposit it into the correct bin (B). You must identify the type of trash: Nabubulok, Hindi Nabubulok, Recyclable, or Hazardous. Correct identifications increase your score and streak. Wrong ones reset them! High scores are saved for future sessions. Developed as a fun way to learn about environmental responsibility.
+EcoQuest is an educational console-based game designed to teach players about proper waste management. In the game, you control a player (<b>𝒫</b>) on a 15×15 grid to collect trash (<b>𝒯</b>) and deposit it into the correct bin (<b>𝐵</b>). You must identify the type of trash: Nabubulok, Hindi Nabubulok, Recyclable, or Hazardous. Correct identifications increase your score and streak. Wrong ones reset them! High scores are saved for future sessions. Developed as a fun way to learn about environmental responsibility.
 </p>
 
-<div align="center">
 
 ─────────────────────────────────────────────────────────────────────────────────────────
 
